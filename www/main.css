@@ -1,0 +1,56 @@
+@media (min-width: 768px) {
+    .navbar-brand.abs
+        {
+            position: absolute;
+            width: auto;
+            left: 50%;
+            transform: translateX(-50%);
+            text-align: center;
+        }
+    }
+    
+.active{
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.background-light{
+    background-color: #fffbde !important;
+}
+
+.ql-editor{
+    height: 200px;
+    max-height: 200px;
+    overflow: auto;
+  }
+
+.card {
+transition: transform 0.2s ease;
+box-shadow: 0 4px 6px 0 rgba(22, 22, 26, 0.18);
+border-radius: 0;
+border: 0;
+}
+
+.card:hover {
+transform: scale(1.01);
+}
+
+body{
+    font-family: 'Signika Negative', sans-serif !important;
+}
+
+.rounded-top-left-1 {
+    border-top-left-radius: 0.25rem;
+}
+
+.animate {
+    animation-duration: 0.8s;
+    animation-name: animate-fade;
+    animation-delay: 0.2s;
+    animation-fill-mode: backwards;
+  }
+
+@keyframes animate-fade {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
